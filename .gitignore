@@ -1,0 +1,9 @@
+/covid19-app.iml
+/.idea
+/coverage
+/target
+/.vscode
+.classpath
+.factorypath
+.project
+.settings/
