@@ -4,6 +4,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class ChangePasswordRequest {
+
   @NotNull
   @Size(min = 8, max = 255)
   String password;

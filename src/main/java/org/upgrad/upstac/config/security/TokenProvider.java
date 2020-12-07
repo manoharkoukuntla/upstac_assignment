@@ -70,7 +70,7 @@ public class TokenProvider implements Serializable {
     if (!username.equals(userDetails.getUsername()))
       throw new ServletException("Invalid User Name");
 
-    if (isTokenExpired(token).booleanValue())
+    if (isTokenExpired(token))
       throw new ServletException("Token Expired");
 
   }

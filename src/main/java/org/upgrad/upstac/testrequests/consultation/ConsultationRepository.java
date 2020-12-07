@@ -10,6 +10,7 @@ import java.util.Optional;
 
 
 public interface ConsultationRepository extends JpaRepository<Consultation, Long> {
+
   Optional<Consultation> findById(Long id);
 
   void deleteById(Long id);

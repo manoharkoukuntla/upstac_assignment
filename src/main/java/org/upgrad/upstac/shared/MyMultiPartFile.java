@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class MyMultiPartFile implements MultipartFile {
+
   private final String name;
   private String originalFilename;
   @Nullable

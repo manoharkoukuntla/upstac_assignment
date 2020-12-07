@@ -12,10 +12,14 @@ public class CreateLabResult {
 
   @NotNull
   private String heartBeat;
+
   @NotNull
   private String temperature;
+
   private String oxygenLevel;
+
   private String comments;
+
   @NotNull
   private TestStatus result;
 }

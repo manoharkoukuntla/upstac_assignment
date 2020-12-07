@@ -51,20 +51,6 @@ class ConsultationControllerTest {
     // make use of assertNotNull() method to make sure that the consultation value of second object
     // is not null
     // use getConsultation() method to get the lab result
-
-     // Arrange
-     User user = createUser();
-     TestRequest mockedResponse = getMockedResponseFrom(createTestRequest);
-     Mockito.when(userLoggedInService.getLoggedInUser()).thenReturn(user);
-     Mockito.when(testRequestService.createTestRequestFrom(user, createTestRequest))
-         .thenReturn(mockedResponse);
- 
-     // Act
-     TestRequest result = testRequestController.createRequest(createTestRequest);
- 
-     // Assert
-     assertNotNull(result);
-     assertEquals(result, mockedResponse);
     
   }
 

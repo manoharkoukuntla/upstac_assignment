@@ -112,7 +112,6 @@ public class AppInitializationService implements ApplicationListener<Application
   }
 
   static String getRandomDoorNumber() {
-
     int min = 1;
     int max = 275;
 
@@ -166,9 +165,7 @@ public class AppInitializationService implements ApplicationListener<Application
     return integers.get(rand.nextInt(integers.size()));
   }
 
-
   private static String getRandomPhoneNumber() {
-
     Long start = 9629150000L;
 
     int min = 1000;
@@ -181,7 +178,6 @@ public class AppInitializationService implements ApplicationListener<Application
   }
 
   public static Integer getRandomAge() {
-
     int min = 21;
     int max = 75;
 

@@ -12,7 +12,6 @@ import java.util.Optional;
 public class DateParser {
 
   public static LocalDate getDateFromString(String input) {
-
     try {
       String pattern = "yyyy-MM-dd";
       SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
@@ -24,7 +23,6 @@ public class DateParser {
   }
 
   public static String getStringFromDate(LocalDate input) {
-
     // "2018-09-09"
     String pattern = "yyyy-MM-dd";
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);

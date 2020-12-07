@@ -1,6 +1,7 @@
 package org.upgrad.upstac.exception;
 
 public class AppException extends RuntimeException {
+
   public AppException() {
     super();
   }

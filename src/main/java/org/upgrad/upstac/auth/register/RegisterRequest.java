@@ -12,7 +12,7 @@ import org.upgrad.upstac.users.models.Gender;
 @ToString
 @EqualsAndHashCode
 public class RegisterRequest {
-    
+
     private String userName;
     private String password;
     private String firstName;
